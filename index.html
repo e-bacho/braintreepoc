@@ -6,6 +6,7 @@
     <script src="braintree.js"></script>
   </head>
   <body>
+    <time>New Form</time>
     <form>
       <div id="braintree-dropin-container"></div>
       <input type="submit"></input>
@@ -23,7 +24,8 @@
       {
         console.log(event);
         console.log(nonce);
-      }
+      },
+      enableCORS: false
     });
     </script>
   </body>
